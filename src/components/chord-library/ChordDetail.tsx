@@ -20,23 +20,20 @@ export default function ChordDetail({
   chord, allVoicings, voicingIndex, onVoicingChange,
   isFavourite, onToggleFavourite, onSelectChord,
 }: ChordDetailProps) {
+  const ctxRef = useRef<AudioContext | null>(null);
   const synthRef = useRef<Synthesiser | null>(null);
 
-  const playChord = () => {
-    const engine = AudioEngine.getInstance();
-    if (!engine.audioContext) {
-      engine.init().then(() => {
-        if (engine.audioContext) doPlay(engine.audioContext);
-      });
-    } else {
-      doPlay(engine.audioContext);
+  const playChord = async () => {
+    if (!ctxRef.current) {
+      ctxRef.current = new AudioContext();
     }
-  };
-
-  const doPlay = (ctx: AudioContext) => {
-    if (!synthRef.current) synthRef.current = new Synthesiser(ctx);
+    if (ctxRef.current.state === 'suspended') {
+      await ctxRef.current.resume();
+    }
+    if (!synthRef.current) {
+      synthRef.current = new Synthesiser(ctxRef.current);
+    }
     synthRef.current.stopAll();
-    // Map notes to frequencies (octave 4 for uke range)
     const freqs = chord.notes
       .filter((_, i) => chord.frets[i] !== -1)
       .map(n => noteToFrequency(n, 4));

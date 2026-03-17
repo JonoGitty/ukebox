@@ -1,7 +1,6 @@
 import { useAppStore } from '../../stores/useAppStore';
 import { getTuningById } from '../../music/tunings';
 import { formatNote } from '../../music/noteUtils';
-import { AudioEngine } from '../../audio/AudioEngine';
 import { Synthesiser } from '../../audio/Synthesiser';
 import { useRef } from 'react';
 
@@ -13,13 +12,18 @@ interface StringSelectorProps {
 export default function StringSelector({ activeString, detectedString }: StringSelectorProps) {
   const { currentTuningId } = useAppStore();
   const tuning = getTuningById(currentTuningId);
+  const ctxRef = useRef<AudioContext | null>(null);
   const synthRef = useRef<Synthesiser | null>(null);
 
-  const playString = (index: number) => {
-    const engine = AudioEngine.getInstance();
-    if (!engine.audioContext) return;
+  const playString = async (index: number) => {
+    if (!ctxRef.current) {
+      ctxRef.current = new AudioContext();
+    }
+    if (ctxRef.current.state === 'suspended') {
+      await ctxRef.current.resume();
+    }
     if (!synthRef.current) {
-      synthRef.current = new Synthesiser(engine.audioContext);
+      synthRef.current = new Synthesiser(ctxRef.current);
     }
     synthRef.current.stopAll();
     synthRef.current.playNote(tuning.strings[index].frequency, 2);
