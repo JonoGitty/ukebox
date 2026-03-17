@@ -1,0 +1,80 @@
+{
+  "id": "you-are-my-sunshine",
+  "title": "You Are My Sunshine",
+  "artist": "Traditional",
+  "key": "C",
+  "bpm": 110,
+  "difficulty": 1,
+  "tags": ["folk", "traditional", "beginner-friendly"],
+  "capo": 0,
+  "tuning": "standard",
+  "timeSignature": "4/4",
+  "sections": [
+    {
+      "name": "Chorus",
+      "type": "chorus",
+      "lines": [
+        {
+          "chords": [{ "chord": "C", "position": 0 }],
+          "lyrics": "You are my sunshine, my only sunshine"
+        },
+        {
+          "chords": [{ "chord": "F", "position": 0 }],
+          "lyrics": "You make me happy when skies are grey"
+        },
+        {
+          "chords": [{ "chord": "F", "position": 0 }, { "chord": "C", "position": 25 }],
+          "lyrics": "You'll never know dear, how much I love you"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 25 }],
+          "lyrics": "Please don't take my sunshine away"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "C", "position": 0 }],
+          "lyrics": "The other night dear, as I lay sleeping"
+        },
+        {
+          "chords": [{ "chord": "F", "position": 0 }],
+          "lyrics": "I dreamed I held you in my arms"
+        },
+        {
+          "chords": [{ "chord": "F", "position": 0 }, { "chord": "C", "position": 16 }],
+          "lyrics": "But when I awoke dear, I was mistaken"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 20 }],
+          "lyrics": "So I hung my head and I cried"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "C", "position": 0 }],
+          "lyrics": "I'll always love you and make you happy"
+        },
+        {
+          "chords": [{ "chord": "F", "position": 0 }],
+          "lyrics": "If you will only say the same"
+        },
+        {
+          "chords": [{ "chord": "F", "position": 0 }, { "chord": "C", "position": 22 }],
+          "lyrics": "But if you leave me to love another"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 25 }],
+          "lyrics": "You'll regret it all some day"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ode-to-joy",
+  "title": "Ode to Joy",
+  "artist": "Beethoven (arr. for ukulele)",
+  "key": "C",
+  "bpm": 100,
+  "difficulty": 1,
+  "tags": ["classical", "beginner-friendly", "melody"],
+  "capo": 0,
+  "tuning": "standard",
+  "timeSignature": "4/4",
+  "sections": [
+    {
+      "name": "Theme A",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "C", "position": 0 }, { "chord": "G", "position": 20 }],
+          "lyrics": "Joyful, joyful, we adore thee"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 20 }],
+          "lyrics": "God of glory, Lord of love"
+        },
+        {
+          "chords": [{ "chord": "C", "position": 0 }, { "chord": "G", "position": 20 }],
+          "lyrics": "Hearts unfold like flowers before thee"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 20 }],
+          "lyrics": "Opening to the sun above"
+        }
+      ]
+    },
+    {
+      "name": "Theme B",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 15 }],
+          "lyrics": "Melt the clouds of sin and sadness"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 15 }],
+          "lyrics": "Drive the dark of doubt away"
+        },
+        {
+          "chords": [{ "chord": "C", "position": 0 }, { "chord": "F", "position": 15 }],
+          "lyrics": "Giver of immortal gladness"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 15 }],
+          "lyrics": "Fill us with the light of day"
+        }
+      ]
+    }
+  ]
+}

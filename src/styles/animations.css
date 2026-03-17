@@ -1,0 +1,97 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px #e8a04840, 0 0 60px #e8a04815;
+  }
+  50% {
+    box-shadow: 0 0 30px #e8a04860, 0 0 80px #e8a04825;
+  }
+}
+
+@keyframes pulseGlowRed {
+  0%, 100% {
+    box-shadow: 0 0 20px #e8484840, 0 0 60px #e8484815;
+  }
+  50% {
+    box-shadow: 0 0 35px #e8484870, 0 0 90px #e8484830;
+  }
+}
+
+@keyframes pulseGlowGreen {
+  0%, 100% {
+    box-shadow: 0 0 20px #48e88a40, 0 0 60px #48e88a15;
+  }
+  50% {
+    box-shadow: 0 0 30px #48e88a60, 0 0 80px #48e88a25;
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes micPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 #48e88a40;
+  }
+  50% {
+    transform: scale(1.15);
+    box-shadow: 0 0 12px 4px #48e88a30;
+  }
+}
+
+@keyframes needleSwing {
+  0% { transform: rotate(var(--needle-from)); }
+  100% { transform: rotate(var(--needle-to)); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Utility classes */
+.fade-in {
+  animation: fadeIn var(--transition-normal) both;
+}
+
+.slide-in-left {
+  animation: slideInLeft var(--transition-normal) both;
+}
+
+.slide-in-up {
+  animation: slideInUp var(--transition-normal) both;
+}

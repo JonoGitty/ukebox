@@ -1,0 +1,242 @@
+[
+  {
+    "id": "first-chords",
+    "title": "First Chords",
+    "description": "Learn the four most essential ukulele chords: C, Am, F, and G.",
+    "difficulty": 1,
+    "estimatedMinutes": 15,
+    "steps": [
+      {
+        "type": "text",
+        "title": "Welcome to Ukulele!",
+        "content": "These four chords — C, Am, F, and G — are the foundation of hundreds of songs. Master these, and you'll be playing real music in no time."
+      },
+      {
+        "type": "chord",
+        "title": "C Major",
+        "chord": "C",
+        "content": "The simplest chord on ukulele! Place your ring finger on the 3rd fret of the A string (bottom string). All other strings are open.",
+        "tips": "Press firmly right behind the fret wire, not on top of it."
+      },
+      {
+        "type": "chord",
+        "title": "A Minor",
+        "chord": "Am",
+        "content": "Place your index finger on the 2nd fret of the G string (top string). Everything else is open.",
+        "tips": "This chord has a beautiful, melancholy sound. Notice how it's just one finger!"
+      },
+      {
+        "type": "chord",
+        "title": "F Major",
+        "chord": "F",
+        "content": "Place your index finger on the 1st fret of the E string, and your middle finger on the 2nd fret of the G string.",
+        "tips": "Keep your fingers arched so they don't accidentally mute the open strings."
+      },
+      {
+        "type": "chord",
+        "title": "G Major",
+        "chord": "G",
+        "content": "This is the trickiest of the four. Index finger on 2nd fret of C string, ring finger on 3rd fret of E string, middle finger on 2nd fret of A string.",
+        "tips": "Take your time with this one. It gets easier with practice!"
+      },
+      {
+        "type": "exercise",
+        "title": "Chord Switching: C to Am",
+        "content": "Practice switching between C and Am. Try to switch smoothly without pausing.",
+        "chords": ["C", "Am"],
+        "bpm": 60
+      },
+      {
+        "type": "exercise",
+        "title": "Chord Switching: F to G",
+        "content": "Now try F to G. This is a bigger jump.",
+        "chords": ["F", "G"],
+        "bpm": 60
+      },
+      {
+        "type": "exercise",
+        "title": "The Four-Chord Loop",
+        "content": "Put it all together! Play C, Am, F, G in a loop.",
+        "chords": ["C", "Am", "F", "G"],
+        "bpm": 70
+      }
+    ]
+  },
+  {
+    "id": "strumming-patterns",
+    "title": "Strumming Patterns",
+    "description": "Learn essential strumming patterns to bring your chords to life.",
+    "difficulty": 1,
+    "estimatedMinutes": 20,
+    "steps": [
+      {
+        "type": "text",
+        "title": "Why Strumming Matters",
+        "content": "Chords are the vocabulary, but strumming is the rhythm. A simple chord with a great strum pattern sounds better than a complex chord strummed badly."
+      },
+      {
+        "type": "strum",
+        "title": "Basic Down Strum",
+        "content": "Strum down on every beat. Count 1-2-3-4 and strum down each time. Keep your wrist loose.",
+        "pattern": ["D", "D", "D", "D"],
+        "bpm": 80
+      },
+      {
+        "type": "strum",
+        "title": "Down-Up Pattern",
+        "content": "Alternate: down on the beat, up on the 'and'. Count: 1-and-2-and-3-and-4-and.",
+        "pattern": ["D", "U", "D", "U", "D", "U", "D", "U"],
+        "bpm": 80
+      },
+      {
+        "type": "strum",
+        "title": "Island Strum",
+        "content": "The classic ukulele pattern! Down, Down-Up, Up-Down-Up. This is the pattern behind Hawaiian music and pop songs.",
+        "pattern": ["D", "-", "D", "U", "-", "U", "D", "U"],
+        "bpm": 90
+      },
+      {
+        "type": "strum",
+        "title": "Calypso Strum",
+        "content": "A syncopated pattern with Caribbean feel.",
+        "pattern": ["D", "-", "D", "U", "-", "U", "D", "U"],
+        "bpm": 100
+      },
+      {
+        "type": "exercise",
+        "title": "Practice with C and F",
+        "content": "Apply the Island Strum to a C-F chord change. Play 4 bars of C, then 4 bars of F.",
+        "chords": ["C", "F"],
+        "bpm": 85
+      }
+    ]
+  },
+  {
+    "id": "fingerpicking-basics",
+    "title": "Fingerpicking Basics",
+    "description": "Learn fingerpicking technique for a gentler, more melodic sound.",
+    "difficulty": 2,
+    "estimatedMinutes": 20,
+    "steps": [
+      {
+        "type": "text",
+        "title": "Fingerpicking Introduction",
+        "content": "Fingerpicking creates a beautiful, harp-like sound. Your thumb handles the G and C strings, while your index and middle fingers handle E and A."
+      },
+      {
+        "type": "text",
+        "title": "Hand Position",
+        "content": "Rest your thumb on the G string. Let your index finger hover over the E string, and your middle finger over the A string. Keep relaxed."
+      },
+      {
+        "type": "exercise",
+        "title": "Simple Arpeggio",
+        "content": "Play strings one at a time: G (thumb) then C (thumb) then E (index) then A (middle). Hold a C chord shape.",
+        "chords": ["C"],
+        "bpm": 60
+      },
+      {
+        "type": "exercise",
+        "title": "Reverse Arpeggio",
+        "content": "Now reverse: A (middle) then E (index) then C (thumb) then G (thumb). Keep C chord held.",
+        "chords": ["C"],
+        "bpm": 60
+      },
+      {
+        "type": "exercise",
+        "title": "Travis Picking Pattern",
+        "content": "Thumb alternates G and C strings while fingers pick E and A.",
+        "chords": ["C", "Am", "F", "G"],
+        "bpm": 55
+      }
+    ]
+  },
+  {
+    "id": "barre-chords",
+    "title": "Barre Chords",
+    "description": "Master the barre chord technique to unlock every chord on the fretboard.",
+    "difficulty": 3,
+    "estimatedMinutes": 25,
+    "steps": [
+      {
+        "type": "text",
+        "title": "What Are Barre Chords?",
+        "content": "A barre chord uses one finger to press multiple strings across a single fret. This creates a moveable shape — slide it up and down to play any chord."
+      },
+      {
+        "type": "text",
+        "title": "Building Finger Strength",
+        "content": "Barre chords require finger strength. Place your index finger flat across all 4 strings at fret 1. Press firmly and strum — every string should ring clearly."
+      },
+      {
+        "type": "chord",
+        "title": "Bb Major (Your First Barre)",
+        "chord": "Bb",
+        "content": "Barre all strings at fret 1 with your index finger, then add: middle on fret 2 C string, ring on fret 3 E string, pinky on fret 3 A string.",
+        "tips": "Roll your index finger slightly to the side for better pressure."
+      },
+      {
+        "type": "chord",
+        "title": "B Major",
+        "chord": "B",
+        "content": "Move the Bb shape up one fret. Barre at fret 2, same shape above.",
+        "tips": "Same pattern — every barre shape slides up to make a new chord!"
+      },
+      {
+        "type": "exercise",
+        "title": "Barre Chord Movement",
+        "content": "Move a barre chord shape from fret 1 (Bb) to fret 3 (C) to fret 5 (D) and back.",
+        "chords": ["Bb", "C", "D"],
+        "bpm": 50
+      }
+    ]
+  },
+  {
+    "id": "music-theory-uke",
+    "title": "Music Theory for Uke",
+    "description": "Understand keys, scales, and why certain chords sound good together.",
+    "difficulty": 2,
+    "estimatedMinutes": 20,
+    "steps": [
+      {
+        "type": "text",
+        "title": "Why Learn Theory?",
+        "content": "Music theory isn't rules — it's patterns. Once you see them, you can figure out chords by ear, write progressions, and communicate with other musicians."
+      },
+      {
+        "type": "text",
+        "title": "The Major Scale",
+        "content": "Every key is built from whole and half steps (W-W-H-W-W-W-H). In C: C-D-E-F-G-A-B. No sharps or flats."
+      },
+      {
+        "type": "text",
+        "title": "Chords From the Scale",
+        "content": "Each note gets a chord: C(I), Dm(ii), Em(iii), F(IV), G(V), Am(vi), Bdim(vii). Major chords are uppercase Roman, minor lowercase."
+      },
+      {
+        "type": "text",
+        "title": "The Magic Four Chords",
+        "content": "I-V-vi-IV is the most common pop progression. In C: C-G-Am-F. In G: G-D-Em-C."
+      },
+      {
+        "type": "exercise",
+        "title": "I-V-vi-IV in C",
+        "content": "Play C, G, Am, F — the famous four-chord progression.",
+        "chords": ["C", "G", "Am", "F"],
+        "bpm": 80
+      },
+      {
+        "type": "exercise",
+        "title": "I-V-vi-IV in G",
+        "content": "Same progression in G: G, D, Em, C. Notice how it feels the same?",
+        "chords": ["G", "D", "Em", "C"],
+        "bpm": 80
+      },
+      {
+        "type": "text",
+        "title": "The Circle of Fifths",
+        "content": "Keys relate by fifths: C-G-D-A-E-B-F#-C#-Ab-Eb-Bb-F-C. Adjacent keys share most chords."
+      }
+    ]
+  }
+]

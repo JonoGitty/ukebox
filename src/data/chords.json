@@ -1,0 +1,2135 @@
+[
+  {
+    "root": "C",
+    "quality": "Major",
+    "name": "C",
+    "frets": [0, 0, 0, 3],
+    "fingers": [0, 0, 0, 3],
+    "notes": ["G", "C", "E", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Minor",
+    "name": "Cm",
+    "frets": [0, 3, 3, 3],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "D#", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "C",
+    "quality": "7",
+    "name": "C7",
+    "frets": [0, 0, 0, 1],
+    "fingers": [0, 0, 0, 1],
+    "notes": ["G", "C", "E", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Maj7",
+    "name": "Cmaj7",
+    "frets": [0, 0, 0, 2],
+    "fingers": [0, 0, 0, 1],
+    "notes": ["G", "C", "E", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Min7",
+    "name": "Cm7",
+    "frets": [3, 3, 3, 3],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["Bb", "D#", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "C",
+    "quality": "Dim",
+    "name": "Cdim",
+    "frets": [2, 3, 2, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "D#", "F#", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Aug",
+    "name": "Caug",
+    "frets": [1, 0, 0, 3],
+    "fingers": [1, 0, 0, 3],
+    "notes": ["G#", "C", "E", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Sus2",
+    "name": "Csus2",
+    "frets": [0, 2, 3, 3],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "D", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "C",
+    "quality": "Sus4",
+    "name": "Csus4",
+    "frets": [0, 0, 1, 3],
+    "fingers": [0, 0, 1, 3],
+    "notes": ["G", "C", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Add9",
+    "name": "Cadd9",
+    "frets": [0, 2, 0, 3],
+    "fingers": [0, 2, 0, 3],
+    "notes": ["G", "D", "E", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "6",
+    "name": "C6",
+    "frets": [0, 0, 0, 0],
+    "fingers": [0, 0, 0, 0],
+    "notes": ["G", "C", "E", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Min6",
+    "name": "Cm6",
+    "frets": [2, 3, 3, 0],
+    "fingers": [1, 2, 3, 0],
+    "notes": ["A", "D#", "G", "A"],
+    "barreeFret": 3
+  },
+  {
+    "root": "C",
+    "quality": "Dim7",
+    "name": "Cdim7",
+    "frets": [2, 3, 2, 0],
+    "fingers": [1, 3, 2, 0],
+    "notes": ["A", "D#", "F#", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "9",
+    "name": "C9",
+    "frets": [0, 2, 0, 1],
+    "fingers": [0, 2, 0, 1],
+    "notes": ["G", "D", "E", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "C#",
+    "quality": "Major",
+    "name": "C#",
+    "frets": [1, 1, 1, 4],
+    "fingers": [1, 1, 1, 4],
+    "notes": ["G#", "C#", "F", "C#"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "Minor",
+    "name": "C#m",
+    "frets": [1, 4, 4, 4],
+    "fingers": [1, 2, 3, 4],
+    "notes": ["G#", "E", "G#", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "C#",
+    "quality": "7",
+    "name": "C#7",
+    "frets": [1, 1, 1, 2],
+    "fingers": [1, 1, 1, 2],
+    "notes": ["G#", "C#", "F", "B"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "Maj7",
+    "name": "C#maj7",
+    "frets": [1, 1, 1, 3],
+    "fingers": [1, 1, 1, 3],
+    "notes": ["G#", "C#", "F", "C"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "Min7",
+    "name": "C#m7",
+    "frets": [4, 4, 4, 4],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["B", "E", "G#", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "C#",
+    "quality": "Dim",
+    "name": "C#dim",
+    "frets": [0, 1, 0, 4],
+    "fingers": [0, 1, 0, 4],
+    "notes": ["G", "C#", "E", "C#"],
+    "barreeFret": null
+  },
+  {
+    "root": "C#",
+    "quality": "Aug",
+    "name": "C#aug",
+    "frets": [2, 1, 1, 4],
+    "fingers": [2, 1, 1, 4],
+    "notes": ["A", "C#", "F", "C#"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "Sus2",
+    "name": "C#sus2",
+    "frets": [1, 3, 4, 4],
+    "fingers": [1, 2, 3, 4],
+    "notes": ["G#", "D#", "G#", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "C#",
+    "quality": "Sus4",
+    "name": "C#sus4",
+    "frets": [1, 1, 2, 4],
+    "fingers": [1, 1, 2, 4],
+    "notes": ["G#", "C#", "F#", "C#"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "Add9",
+    "name": "C#add9",
+    "frets": [1, 3, 1, 4],
+    "fingers": [1, 3, 1, 4],
+    "notes": ["G#", "D#", "F", "C#"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "6",
+    "name": "C#6",
+    "frets": [1, 1, 1, 1],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["G#", "C#", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "Min6",
+    "name": "C#m6",
+    "frets": [1, 1, 0, 1],
+    "fingers": [1, 2, 0, 3],
+    "notes": ["G#", "C#", "E", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "Dim7",
+    "name": "C#dim7",
+    "frets": [0, 1, 0, 1],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "C#", "E", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C#",
+    "quality": "9",
+    "name": "C#9",
+    "frets": [1, 3, 1, 2],
+    "fingers": [1, 3, 1, 2],
+    "notes": ["G#", "D#", "F", "B"],
+    "barreeFret": 1
+  },
+  {
+    "root": "D",
+    "quality": "Major",
+    "name": "D",
+    "frets": [2, 2, 2, 0],
+    "fingers": [1, 1, 1, 0],
+    "notes": ["A", "D", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Minor",
+    "name": "Dm",
+    "frets": [2, 2, 1, 0],
+    "fingers": [2, 3, 1, 0],
+    "notes": ["A", "D", "F", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "7",
+    "name": "D7",
+    "frets": [2, 2, 2, 3],
+    "fingers": [1, 1, 1, 2],
+    "notes": ["A", "D", "F#", "C"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Maj7",
+    "name": "Dmaj7",
+    "frets": [2, 2, 2, 4],
+    "fingers": [1, 1, 1, 3],
+    "notes": ["A", "D", "F#", "C#"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Min7",
+    "name": "Dm7",
+    "frets": [2, 2, 1, 3],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["A", "D", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "D",
+    "quality": "Dim",
+    "name": "Ddim",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "D",
+    "quality": "Aug",
+    "name": "Daug",
+    "frets": [3, 2, 2, 0],
+    "fingers": [3, 1, 2, 0],
+    "notes": ["Bb", "D", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Sus2",
+    "name": "Dsus2",
+    "frets": [2, 2, 0, 0],
+    "fingers": [1, 2, 0, 0],
+    "notes": ["A", "D", "E", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Sus4",
+    "name": "Dsus4",
+    "frets": [0, 2, 3, 0],
+    "fingers": [0, 1, 2, 0],
+    "notes": ["G", "D", "G", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "D",
+    "quality": "Add9",
+    "name": "Dadd9",
+    "frets": [2, 4, 2, 0],
+    "fingers": [1, 3, 2, 0],
+    "notes": ["A", "E", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "6",
+    "name": "D6",
+    "frets": [2, 2, 2, 2],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["A", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Min6",
+    "name": "Dm6",
+    "frets": [2, 2, 1, 2],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["A", "D", "F", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Dim7",
+    "name": "Ddim7",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "D",
+    "quality": "9",
+    "name": "D9",
+    "frets": [2, 4, 2, 3],
+    "fingers": [1, 3, 1, 2],
+    "notes": ["A", "E", "F#", "C"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D#",
+    "quality": "Major",
+    "name": "D#",
+    "frets": [3, 3, 3, 1],
+    "fingers": [2, 3, 4, 1],
+    "notes": ["Bb", "D#", "G", "Bb"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "Minor",
+    "name": "D#m",
+    "frets": [3, 3, 2, 1],
+    "fingers": [3, 4, 2, 1],
+    "notes": ["Bb", "D#", "F#", "Bb"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "7",
+    "name": "D#7",
+    "frets": [3, 3, 3, 4],
+    "fingers": [1, 1, 1, 2],
+    "notes": ["Bb", "D#", "G", "C#"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "Maj7",
+    "name": "D#maj7",
+    "frets": [3, 3, 3, 5],
+    "fingers": [1, 1, 1, 3],
+    "notes": ["Bb", "D#", "G", "D"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "Min7",
+    "name": "D#m7",
+    "frets": [3, 3, 2, 4],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["Bb", "D#", "F#", "C#"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "Dim",
+    "name": "D#dim",
+    "frets": [2, 3, 2, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "D#", "F#", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "D#",
+    "quality": "Aug",
+    "name": "D#aug",
+    "frets": [0, 3, 3, 2],
+    "fingers": [0, 2, 3, 1],
+    "notes": ["G", "D#", "G", "B"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "Sus2",
+    "name": "D#sus2",
+    "frets": [3, 3, 1, 1],
+    "fingers": [3, 4, 1, 2],
+    "notes": ["Bb", "D#", "F", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "D#",
+    "quality": "Sus4",
+    "name": "D#sus4",
+    "frets": [1, 3, 4, 1],
+    "fingers": [1, 3, 4, 1],
+    "notes": ["G#", "D#", "G#", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "D#",
+    "quality": "Add9",
+    "name": "D#add9",
+    "frets": [0, 3, 1, 1],
+    "fingers": [0, 3, 1, 2],
+    "notes": ["G", "D#", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "D#",
+    "quality": "6",
+    "name": "D#6",
+    "frets": [3, 3, 3, 3],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["Bb", "D#", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "Min6",
+    "name": "D#m6",
+    "frets": [3, 3, 2, 3],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["Bb", "D#", "F#", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "D#",
+    "quality": "Dim7",
+    "name": "D#dim7",
+    "frets": [2, 3, 2, 0],
+    "fingers": [1, 3, 2, 0],
+    "notes": ["A", "D#", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D#",
+    "quality": "9",
+    "name": "D#9",
+    "frets": [0, 3, 1, 4],
+    "fingers": [0, 3, 1, 4],
+    "notes": ["G", "D#", "F", "C#"],
+    "barreeFret": null
+  },
+  {
+    "root": "E",
+    "quality": "Major",
+    "name": "E",
+    "frets": [4, 4, 4, 2],
+    "fingers": [2, 3, 4, 1],
+    "notes": ["B", "E", "G#", "B"],
+    "barreeFret": 4
+  },
+  {
+    "root": "E",
+    "quality": "Minor",
+    "name": "Em",
+    "frets": [0, 4, 3, 2],
+    "fingers": [0, 3, 2, 1],
+    "notes": ["G", "E", "G", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "E",
+    "quality": "7",
+    "name": "E7",
+    "frets": [1, 2, 0, 2],
+    "fingers": [1, 2, 0, 3],
+    "notes": ["G#", "D", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "E",
+    "quality": "Maj7",
+    "name": "Emaj7",
+    "frets": [1, 3, 0, 2],
+    "fingers": [1, 3, 0, 2],
+    "notes": ["G#", "D#", "E", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "E",
+    "quality": "Min7",
+    "name": "Em7",
+    "frets": [0, 2, 0, 2],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "D", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "E",
+    "quality": "Dim",
+    "name": "Edim",
+    "frets": [3, 4, 3, 1],
+    "fingers": [2, 3, 4, 1],
+    "notes": ["Bb", "E", "G", "Bb"],
+    "barreeFret": 3
+  },
+  {
+    "root": "E",
+    "quality": "Aug",
+    "name": "Eaug",
+    "frets": [1, 0, 0, 3],
+    "fingers": [1, 0, 0, 3],
+    "notes": ["G#", "C", "E", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "E",
+    "quality": "Sus2",
+    "name": "Esus2",
+    "frets": [4, 4, 2, 2],
+    "fingers": [3, 4, 1, 2],
+    "notes": ["B", "E", "F#", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "E",
+    "quality": "Sus4",
+    "name": "Esus4",
+    "frets": [2, 4, 0, 2],
+    "fingers": [1, 3, 0, 2],
+    "notes": ["A", "E", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "E",
+    "quality": "Add9",
+    "name": "Eadd9",
+    "frets": [1, 6, 0, 2],
+    "fingers": [1, 4, 0, 2],
+    "notes": ["G#", "F#", "E", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "E",
+    "quality": "6",
+    "name": "E6",
+    "frets": [4, 4, 4, 4],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["B", "E", "G#", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "E",
+    "quality": "Min6",
+    "name": "Em6",
+    "frets": [0, 4, 3, 4],
+    "fingers": [0, 2, 1, 3],
+    "notes": ["G", "E", "G", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "E",
+    "quality": "Dim7",
+    "name": "Edim7",
+    "frets": [0, 1, 0, 1],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "C#", "E", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "E",
+    "quality": "9",
+    "name": "E9",
+    "frets": [1, 2, 2, 2],
+    "fingers": [1, 2, 3, 4],
+    "notes": ["G#", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F",
+    "quality": "Major",
+    "name": "F",
+    "frets": [2, 0, 1, 0],
+    "fingers": [2, 0, 1, 0],
+    "notes": ["A", "C", "F", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Minor",
+    "name": "Fm",
+    "frets": [1, 0, 1, 3],
+    "fingers": [1, 0, 2, 4],
+    "notes": ["G#", "C", "F", "C"],
+    "barreeFret": 1
+  },
+  {
+    "root": "F",
+    "quality": "7",
+    "name": "F7",
+    "frets": [2, 3, 1, 3],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["A", "D#", "F", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "F",
+    "quality": "Maj7",
+    "name": "Fmaj7",
+    "frets": [2, 4, 1, 0],
+    "fingers": [2, 4, 1, 0],
+    "notes": ["A", "E", "F", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Min7",
+    "name": "Fm7",
+    "frets": [1, 3, 1, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D#", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Dim",
+    "name": "Fdim",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Aug",
+    "name": "Faug",
+    "frets": [2, 1, 1, 0],
+    "fingers": [3, 1, 2, 0],
+    "notes": ["A", "C#", "F", "A"],
+    "barreeFret": 1
+  },
+  {
+    "root": "F",
+    "quality": "Sus2",
+    "name": "Fsus2",
+    "frets": [0, 0, 1, 3],
+    "fingers": [0, 0, 1, 3],
+    "notes": ["G", "C", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Sus4",
+    "name": "Fsus4",
+    "frets": [3, 0, 1, 1],
+    "fingers": [3, 0, 1, 2],
+    "notes": ["Bb", "C", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "F",
+    "quality": "Add9",
+    "name": "Fadd9",
+    "frets": [0, 0, 1, 0],
+    "fingers": [0, 0, 1, 0],
+    "notes": ["G", "C", "F", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "6",
+    "name": "F6",
+    "frets": [2, 2, 1, 0],
+    "fingers": [2, 3, 1, 0],
+    "notes": ["A", "D", "F", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F",
+    "quality": "Min6",
+    "name": "Fm6",
+    "frets": [1, 2, 1, 3],
+    "fingers": [1, 2, 1, 4],
+    "notes": ["G#", "D", "F", "C"],
+    "barreeFret": 1
+  },
+  {
+    "root": "F",
+    "quality": "Dim7",
+    "name": "Fdim7",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "9",
+    "name": "F9",
+    "frets": [0, 3, 1, 0],
+    "fingers": [0, 3, 1, 0],
+    "notes": ["G", "D#", "F", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "F#",
+    "quality": "Major",
+    "name": "F#",
+    "frets": [3, 1, 2, 1],
+    "fingers": [4, 1, 3, 2],
+    "notes": ["Bb", "C#", "F#", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "F#",
+    "quality": "Minor",
+    "name": "F#m",
+    "frets": [2, 1, 2, 0],
+    "fingers": [2, 1, 3, 0],
+    "notes": ["A", "C#", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F#",
+    "quality": "7",
+    "name": "F#7",
+    "frets": [3, 4, 2, 4],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["Bb", "E", "F#", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "F#",
+    "quality": "Maj7",
+    "name": "F#maj7",
+    "frets": [3, 5, 2, 1],
+    "fingers": [3, 4, 2, 1],
+    "notes": ["Bb", "F", "F#", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "F#",
+    "quality": "Min7",
+    "name": "F#m7",
+    "frets": [2, 4, 2, 4],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "E", "F#", "C#"],
+    "barreeFret": null
+  },
+  {
+    "root": "F#",
+    "quality": "Dim",
+    "name": "F#dim",
+    "frets": [2, 3, 2, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "D#", "F#", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "F#",
+    "quality": "Aug",
+    "name": "F#aug",
+    "frets": [3, 2, 2, 1],
+    "fingers": [4, 2, 3, 1],
+    "notes": ["Bb", "D", "F#", "Bb"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F#",
+    "quality": "Sus2",
+    "name": "F#sus2",
+    "frets": [1, 1, 2, 4],
+    "fingers": [1, 1, 2, 4],
+    "notes": ["G#", "C#", "F#", "C#"],
+    "barreeFret": 1
+  },
+  {
+    "root": "F#",
+    "quality": "Sus4",
+    "name": "F#sus4",
+    "frets": [4, 1, 2, 2],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["B", "C#", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F#",
+    "quality": "Add9",
+    "name": "F#add9",
+    "frets": [1, 1, 2, 1],
+    "fingers": [1, 1, 2, 1],
+    "notes": ["G#", "C#", "F#", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "F#",
+    "quality": "6",
+    "name": "F#6",
+    "frets": [3, 3, 2, 1],
+    "fingers": [3, 4, 2, 1],
+    "notes": ["Bb", "D#", "F#", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "F#",
+    "quality": "Min6",
+    "name": "F#m6",
+    "frets": [2, 3, 2, 4],
+    "fingers": [1, 2, 1, 4],
+    "notes": ["A", "D#", "F#", "C#"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F#",
+    "quality": "Dim7",
+    "name": "F#dim7",
+    "frets": [2, 3, 2, 0],
+    "fingers": [1, 3, 2, 0],
+    "notes": ["A", "D#", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F#",
+    "quality": "9",
+    "name": "F#9",
+    "frets": [1, 4, 2, 1],
+    "fingers": [1, 4, 2, 1],
+    "notes": ["G#", "E", "F#", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "G",
+    "quality": "Major",
+    "name": "G",
+    "frets": [0, 2, 3, 2],
+    "fingers": [0, 1, 3, 2],
+    "notes": ["G", "D", "G", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G",
+    "quality": "Minor",
+    "name": "Gm",
+    "frets": [0, 2, 3, 1],
+    "fingers": [0, 2, 3, 1],
+    "notes": ["G", "D", "G", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "7",
+    "name": "G7",
+    "frets": [0, 2, 1, 2],
+    "fingers": [0, 2, 1, 3],
+    "notes": ["G", "D", "F", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G",
+    "quality": "Maj7",
+    "name": "Gmaj7",
+    "frets": [0, 2, 2, 2],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G",
+    "quality": "Min7",
+    "name": "Gm7",
+    "frets": [0, 2, 1, 1],
+    "fingers": [0, 3, 1, 2],
+    "notes": ["G", "D", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "G",
+    "quality": "Dim",
+    "name": "Gdim",
+    "frets": [0, 1, 3, 1],
+    "fingers": [0, 1, 3, 2],
+    "notes": ["G", "C#", "G", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "G",
+    "quality": "Aug",
+    "name": "Gaug",
+    "frets": [0, 3, 3, 2],
+    "fingers": [0, 2, 3, 1],
+    "notes": ["G", "D#", "G", "B"],
+    "barreeFret": 3
+  },
+  {
+    "root": "G",
+    "quality": "Sus2",
+    "name": "Gsus2",
+    "frets": [0, 2, 3, 0],
+    "fingers": [0, 1, 2, 0],
+    "notes": ["G", "D", "G", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "Sus4",
+    "name": "Gsus4",
+    "frets": [0, 2, 3, 3],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "D", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "G",
+    "quality": "Add9",
+    "name": "Gadd9",
+    "frets": [2, 2, 3, 2],
+    "fingers": [1, 1, 2, 1],
+    "notes": ["A", "D", "G", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G",
+    "quality": "6",
+    "name": "G6",
+    "frets": [0, 2, 0, 2],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "D", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G",
+    "quality": "Min6",
+    "name": "Gm6",
+    "frets": [0, 2, 0, 1],
+    "fingers": [0, 2, 0, 1],
+    "notes": ["G", "D", "E", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "Dim7",
+    "name": "Gdim7",
+    "frets": [0, 1, 0, 1],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "C#", "E", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "G",
+    "quality": "9",
+    "name": "G9",
+    "frets": [2, 2, 1, 2],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["A", "D", "F", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G#",
+    "quality": "Major",
+    "name": "G#",
+    "frets": [5, 3, 4, 3],
+    "fingers": [4, 1, 2, 1],
+    "notes": ["C", "D#", "G#", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "G#",
+    "quality": "Minor",
+    "name": "G#m",
+    "frets": [4, 3, 4, 2],
+    "fingers": [3, 2, 4, 1],
+    "notes": ["B", "D#", "G#", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "G#",
+    "quality": "7",
+    "name": "G#7",
+    "frets": [1, 3, 2, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D#", "F#", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "G#",
+    "quality": "Maj7",
+    "name": "G#maj7",
+    "frets": [1, 3, 3, 3],
+    "fingers": [1, 2, 3, 4],
+    "notes": ["G#", "D#", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "G#",
+    "quality": "Min7",
+    "name": "G#m7",
+    "frets": [1, 3, 2, 2],
+    "fingers": [1, 4, 2, 3],
+    "notes": ["G#", "D#", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G#",
+    "quality": "Dim",
+    "name": "G#dim",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "G#",
+    "quality": "Aug",
+    "name": "G#aug",
+    "frets": [1, 0, 0, 3],
+    "fingers": [1, 0, 0, 4],
+    "notes": ["G#", "C", "E", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "G#",
+    "quality": "Sus2",
+    "name": "G#sus2",
+    "frets": [1, 3, 4, 1],
+    "fingers": [1, 3, 4, 1],
+    "notes": ["G#", "D#", "G#", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "G#",
+    "quality": "Sus4",
+    "name": "G#sus4",
+    "frets": [1, 3, 4, 4],
+    "fingers": [1, 2, 3, 4],
+    "notes": ["G#", "D#", "G#", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "G#",
+    "quality": "Add9",
+    "name": "G#add9",
+    "frets": [5, 3, 4, 1],
+    "fingers": [4, 2, 3, 1],
+    "notes": ["C", "D#", "G#", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "G#",
+    "quality": "6",
+    "name": "G#6",
+    "frets": [1, 3, 1, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D#", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "G#",
+    "quality": "Min6",
+    "name": "G#m6",
+    "frets": [1, 3, 1, 2],
+    "fingers": [1, 4, 2, 3],
+    "notes": ["G#", "D#", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "G#",
+    "quality": "Dim7",
+    "name": "G#dim7",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "G#",
+    "quality": "9",
+    "name": "G#9",
+    "frets": [3, 3, 2, 3],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["Bb", "D#", "F#", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "A",
+    "quality": "Major",
+    "name": "A",
+    "frets": [2, 1, 0, 0],
+    "fingers": [2, 1, 0, 0],
+    "notes": ["A", "C#", "E", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Minor",
+    "name": "Am",
+    "frets": [2, 0, 0, 0],
+    "fingers": [1, 0, 0, 0],
+    "notes": ["A", "C", "E", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "7",
+    "name": "A7",
+    "frets": [0, 1, 0, 0],
+    "fingers": [0, 1, 0, 0],
+    "notes": ["G", "C#", "E", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Maj7",
+    "name": "Amaj7",
+    "frets": [1, 1, 0, 0],
+    "fingers": [1, 2, 0, 0],
+    "notes": ["G#", "C#", "E", "A"],
+    "barreeFret": 1
+  },
+  {
+    "root": "A",
+    "quality": "Min7",
+    "name": "Am7",
+    "frets": [0, 0, 0, 0],
+    "fingers": [0, 0, 0, 0],
+    "notes": ["G", "C", "E", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Dim",
+    "name": "Adim",
+    "frets": [2, 3, 2, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "D#", "F#", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Aug",
+    "name": "Aaug",
+    "frets": [2, 1, 1, 0],
+    "fingers": [3, 1, 2, 0],
+    "notes": ["A", "C#", "F", "A"],
+    "barreeFret": 1
+  },
+  {
+    "root": "A",
+    "quality": "Sus2",
+    "name": "Asus2",
+    "frets": [2, 4, 0, 2],
+    "fingers": [1, 3, 0, 2],
+    "notes": ["A", "E", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "A",
+    "quality": "Sus4",
+    "name": "Asus4",
+    "frets": [2, 2, 0, 0],
+    "fingers": [1, 2, 0, 0],
+    "notes": ["A", "D", "E", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "A",
+    "quality": "Add9",
+    "name": "Aadd9",
+    "frets": [2, 1, 0, 2],
+    "fingers": [2, 1, 0, 3],
+    "notes": ["A", "C#", "E", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "6",
+    "name": "A6",
+    "frets": [2, 4, 2, 4],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "E", "F#", "C#"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Min6",
+    "name": "Am6",
+    "frets": [2, 4, 2, 0],
+    "fingers": [1, 3, 2, 0],
+    "notes": ["A", "E", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "A",
+    "quality": "Dim7",
+    "name": "Adim7",
+    "frets": [2, 3, 2, 0],
+    "fingers": [1, 3, 2, 0],
+    "notes": ["A", "D#", "F#", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "A",
+    "quality": "9",
+    "name": "A9",
+    "frets": [0, 1, 0, 2],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "C#", "E", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "Bb",
+    "quality": "Major",
+    "name": "Bb",
+    "frets": [3, 2, 1, 1],
+    "fingers": [4, 3, 2, 1],
+    "notes": ["Bb", "D", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Minor",
+    "name": "Bbm",
+    "frets": [3, 1, 1, 1],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["Bb", "C#", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "7",
+    "name": "Bb7",
+    "frets": [1, 2, 1, 1],
+    "fingers": [1, 2, 1, 1],
+    "notes": ["G#", "D", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Maj7",
+    "name": "Bbmaj7",
+    "frets": [3, 2, 1, 0],
+    "fingers": [3, 2, 1, 0],
+    "notes": ["Bb", "D", "F", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "Bb",
+    "quality": "Min7",
+    "name": "Bbm7",
+    "frets": [1, 1, 1, 1],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["G#", "C#", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Dim",
+    "name": "Bbdim",
+    "frets": [3, 1, 0, 1],
+    "fingers": [3, 1, 0, 2],
+    "notes": ["Bb", "C#", "E", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Aug",
+    "name": "Bbaug",
+    "frets": [3, 2, 2, 1],
+    "fingers": [4, 2, 3, 1],
+    "notes": ["Bb", "D", "F#", "Bb"],
+    "barreeFret": 2
+  },
+  {
+    "root": "Bb",
+    "quality": "Sus2",
+    "name": "Bbsus2",
+    "frets": [3, 0, 1, 1],
+    "fingers": [3, 0, 1, 2],
+    "notes": ["Bb", "C", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Sus4",
+    "name": "Bbsus4",
+    "frets": [3, 3, 1, 1],
+    "fingers": [3, 4, 1, 2],
+    "notes": ["Bb", "D#", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Add9",
+    "name": "Bbadd9",
+    "frets": [3, 2, 1, 3],
+    "fingers": [3, 2, 1, 4],
+    "notes": ["Bb", "D", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "Bb",
+    "quality": "6",
+    "name": "Bb6",
+    "frets": [0, 2, 1, 1],
+    "fingers": [0, 3, 1, 2],
+    "notes": ["G", "D", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Min6",
+    "name": "Bbm6",
+    "frets": [0, 1, 1, 1],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "C#", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Dim7",
+    "name": "Bbdim7",
+    "frets": [0, 1, 0, 1],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "C#", "E", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "9",
+    "name": "Bb9",
+    "frets": [1, 2, 1, 3],
+    "fingers": [1, 2, 1, 4],
+    "notes": ["G#", "D", "F", "C"],
+    "barreeFret": 1
+  },
+  {
+    "root": "B",
+    "quality": "Major",
+    "name": "B",
+    "frets": [4, 3, 2, 2],
+    "fingers": [4, 3, 2, 1],
+    "notes": ["B", "D#", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Minor",
+    "name": "Bm",
+    "frets": [4, 2, 2, 2],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["B", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "7",
+    "name": "B7",
+    "frets": [2, 3, 2, 2],
+    "fingers": [1, 2, 1, 1],
+    "notes": ["A", "D#", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Maj7",
+    "name": "Bmaj7",
+    "frets": [4, 3, 2, 1],
+    "fingers": [4, 3, 2, 1],
+    "notes": ["B", "D#", "F#", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "B",
+    "quality": "Min7",
+    "name": "Bm7",
+    "frets": [2, 2, 2, 2],
+    "fingers": [1, 1, 1, 1],
+    "notes": ["A", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Dim",
+    "name": "Bdim",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "B",
+    "quality": "Aug",
+    "name": "Baug",
+    "frets": [0, 3, 3, 2],
+    "fingers": [0, 2, 3, 1],
+    "notes": ["G", "D#", "G", "B"],
+    "barreeFret": 3
+  },
+  {
+    "root": "B",
+    "quality": "Sus2",
+    "name": "Bsus2",
+    "frets": [4, 1, 2, 2],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["B", "C#", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Sus4",
+    "name": "Bsus4",
+    "frets": [4, 4, 2, 2],
+    "fingers": [3, 4, 1, 2],
+    "notes": ["B", "E", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Add9",
+    "name": "Badd9",
+    "frets": [4, 3, 2, 4],
+    "fingers": [3, 2, 1, 4],
+    "notes": ["B", "D#", "F#", "C#"],
+    "barreeFret": null
+  },
+  {
+    "root": "B",
+    "quality": "6",
+    "name": "B6",
+    "frets": [1, 3, 2, 2],
+    "fingers": [1, 4, 2, 3],
+    "notes": ["G#", "D#", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Min6",
+    "name": "Bm6",
+    "frets": [1, 2, 2, 2],
+    "fingers": [1, 2, 3, 4],
+    "notes": ["G#", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Dim7",
+    "name": "Bdim7",
+    "frets": [1, 2, 1, 2],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["G#", "D", "F", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "B",
+    "quality": "9",
+    "name": "B9",
+    "frets": [2, 3, 2, 4],
+    "fingers": [1, 2, 1, 4],
+    "notes": ["A", "D#", "F#", "C#"],
+    "barreeFret": 2
+  },
+  {
+    "root": "C",
+    "quality": "Major",
+    "name": "C (alt 1)",
+    "frets": [5, 4, 3, 3],
+    "fingers": [3, 2, 1, 1],
+    "notes": ["C", "E", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "C",
+    "quality": "Major",
+    "name": "C (alt 2)",
+    "frets": [0, 0, 3, 3],
+    "fingers": [0, 0, 1, 2],
+    "notes": ["G", "C", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "C",
+    "quality": "Major",
+    "name": "C (high)",
+    "frets": [9, 7, 8, 7],
+    "fingers": [4, 1, 2, 1],
+    "notes": ["E", "G", "C", "E"],
+    "barreeFret": 7
+  },
+  {
+    "root": "C",
+    "quality": "Major",
+    "name": "C (barre 7)",
+    "frets": [7, 7, 8, 7],
+    "fingers": [1, 1, 2, 1],
+    "notes": ["D", "G", "C", "E"],
+    "barreeFret": 7
+  },
+  {
+    "root": "G",
+    "quality": "Major",
+    "name": "G (alt 1)",
+    "frets": [0, 2, 3, 5],
+    "fingers": [0, 1, 2, 4],
+    "notes": ["G", "D", "G", "D"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "Major",
+    "name": "G (alt 2)",
+    "frets": [4, 2, 3, 2],
+    "fingers": [3, 1, 2, 1],
+    "notes": ["B", "D", "G", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "G",
+    "quality": "Major",
+    "name": "G (barre 7)",
+    "frets": [7, 7, 7, 10],
+    "fingers": [1, 1, 1, 4],
+    "notes": ["D", "G", "B", "G"],
+    "barreeFret": 7
+  },
+  {
+    "root": "A",
+    "quality": "Minor",
+    "name": "Am (alt 1)",
+    "frets": [2, 0, 0, 3],
+    "fingers": [1, 0, 0, 3],
+    "notes": ["A", "C", "E", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Minor",
+    "name": "Am (high)",
+    "frets": [2, 4, 5, 3],
+    "fingers": [1, 3, 4, 2],
+    "notes": ["A", "E", "A", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Major",
+    "name": "F (alt 1)",
+    "frets": [2, 0, 1, 3],
+    "fingers": [2, 0, 1, 4],
+    "notes": ["A", "C", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Major",
+    "name": "F (barre 5)",
+    "frets": [5, 5, 5, 8],
+    "fingers": [1, 1, 1, 4],
+    "notes": ["C", "F", "A", "F"],
+    "barreeFret": 5
+  },
+  {
+    "root": "D",
+    "quality": "Major",
+    "name": "D (alt 1)",
+    "frets": [2, 2, 2, 5],
+    "fingers": [1, 1, 1, 4],
+    "notes": ["A", "D", "F#", "D"],
+    "barreeFret": 2
+  },
+  {
+    "root": "E",
+    "quality": "Minor",
+    "name": "Em (alt 1)",
+    "frets": [4, 4, 3, 2],
+    "fingers": [3, 4, 2, 1],
+    "notes": ["B", "E", "G", "B"],
+    "barreeFret": 4
+  },
+  {
+    "root": "E",
+    "quality": "Minor",
+    "name": "Em (alt 2)",
+    "frets": [4, 4, 3, 7],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["B", "E", "G", "E"],
+    "barreeFret": 4
+  },
+  {
+    "root": "A",
+    "quality": "Major",
+    "name": "A (alt 1)",
+    "frets": [2, 1, 0, 4],
+    "fingers": [2, 1, 0, 4],
+    "notes": ["A", "C#", "E", "C#"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Major",
+    "name": "A (barre 4)",
+    "frets": [6, 4, 5, 4],
+    "fingers": [4, 1, 2, 1],
+    "notes": ["C#", "E", "A", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "E",
+    "quality": "Major",
+    "name": "E (alt 1)",
+    "frets": [4, 4, 4, 7],
+    "fingers": [1, 1, 1, 4],
+    "notes": ["B", "E", "G#", "E"],
+    "barreeFret": 4
+  },
+  {
+    "root": "E",
+    "quality": "Major",
+    "name": "E (alt 2)",
+    "frets": [1, 4, 0, 2],
+    "fingers": [1, 4, 0, 2],
+    "notes": ["G#", "E", "E", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "D",
+    "quality": "Minor",
+    "name": "Dm (alt 1)",
+    "frets": [2, 2, 1, 3],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["A", "D", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "D",
+    "quality": "Minor",
+    "name": "Dm (alt 2)",
+    "frets": [2, 2, 1, 5],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["A", "D", "F", "D"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Minor",
+    "name": "Cm (alt 1)",
+    "frets": [5, 3, 3, 3],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["C", "D#", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "G",
+    "quality": "Minor",
+    "name": "Gm (alt 1)",
+    "frets": [0, 2, 3, 1],
+    "fingers": [0, 2, 3, 1],
+    "notes": ["G", "D", "G", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "7",
+    "name": "G7 (alt 1)",
+    "frets": [4, 2, 1, 2],
+    "fingers": [4, 2, 1, 3],
+    "notes": ["B", "D", "F", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "7",
+    "name": "D7 (alt 1)",
+    "frets": [2, 2, 2, 3],
+    "fingers": [1, 1, 1, 2],
+    "notes": ["A", "D", "F#", "C"],
+    "barreeFret": 2
+  },
+  {
+    "root": "C",
+    "quality": "Maj7",
+    "name": "Cmaj7 (alt 1)",
+    "frets": [4, 4, 3, 3],
+    "fingers": [3, 4, 1, 2],
+    "notes": ["B", "E", "G", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "Maj7",
+    "name": "Gmaj7 (alt 1)",
+    "frets": [0, 2, 2, 2],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "E",
+    "quality": "7",
+    "name": "E7 (alt 1)",
+    "frets": [1, 2, 0, 2],
+    "fingers": [1, 2, 0, 3],
+    "notes": ["G#", "D", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "A",
+    "quality": "7",
+    "name": "A7 (alt 1)",
+    "frets": [0, 1, 0, 0],
+    "fingers": [0, 1, 0, 0],
+    "notes": ["G", "C#", "E", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "6",
+    "name": "C6 (alt 1)",
+    "frets": [0, 0, 0, 0],
+    "fingers": [0, 0, 0, 0],
+    "notes": ["G", "C", "E", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Sus4",
+    "name": "Csus4 (alt 1)",
+    "frets": [0, 0, 1, 3],
+    "fingers": [0, 0, 1, 3],
+    "notes": ["G", "C", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Sus2",
+    "name": "Csus2 (alt 1)",
+    "frets": [0, 2, 3, 3],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "D", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "G",
+    "quality": "Sus4",
+    "name": "Gsus4 (alt 1)",
+    "frets": [0, 2, 3, 3],
+    "fingers": [0, 1, 2, 3],
+    "notes": ["G", "D", "G", "C"],
+    "barreeFret": 3
+  },
+  {
+    "root": "A",
+    "quality": "Sus4",
+    "name": "Asus4 (alt 1)",
+    "frets": [2, 2, 0, 0],
+    "fingers": [1, 2, 0, 0],
+    "notes": ["A", "D", "E", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "B",
+    "quality": "Minor",
+    "name": "Bm (alt 1)",
+    "frets": [4, 2, 2, 2],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["B", "D", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F#",
+    "quality": "Minor",
+    "name": "F#m (alt 1)",
+    "frets": [2, 1, 2, 0],
+    "fingers": [2, 1, 3, 0],
+    "notes": ["A", "C#", "F#", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "B",
+    "quality": "7",
+    "name": "B7 (alt 1)",
+    "frets": [2, 3, 2, 2],
+    "fingers": [1, 2, 1, 1],
+    "notes": ["A", "D#", "F#", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "C#",
+    "quality": "Minor",
+    "name": "C#m (alt 1)",
+    "frets": [6, 4, 4, 4],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["C#", "E", "G#", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "F#",
+    "quality": "Major",
+    "name": "F# (alt 1)",
+    "frets": [3, 1, 2, 1],
+    "fingers": [4, 1, 3, 2],
+    "notes": ["Bb", "C#", "F#", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "Bb",
+    "quality": "Minor",
+    "name": "Bbm (alt 1)",
+    "frets": [3, 1, 1, 1],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["Bb", "C#", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "E",
+    "quality": "Min7",
+    "name": "Em7 (alt 1)",
+    "frets": [0, 2, 0, 2],
+    "fingers": [0, 1, 0, 2],
+    "notes": ["G", "D", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Min7",
+    "name": "Dm7 (alt 1)",
+    "frets": [2, 2, 1, 3],
+    "fingers": [2, 3, 1, 4],
+    "notes": ["A", "D", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "9",
+    "name": "C9 (alt 1)",
+    "frets": [0, 2, 0, 1],
+    "fingers": [0, 2, 0, 1],
+    "notes": ["G", "D", "E", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "6",
+    "name": "G6 (alt 1)",
+    "frets": [4, 2, 0, 2],
+    "fingers": [3, 1, 0, 2],
+    "notes": ["B", "D", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "F",
+    "quality": "Minor",
+    "name": "Fm (alt 1)",
+    "frets": [1, 0, 1, 3],
+    "fingers": [1, 0, 2, 4],
+    "notes": ["G#", "C", "F", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "Add9",
+    "name": "Cadd9 (alt 1)",
+    "frets": [0, 2, 0, 3],
+    "fingers": [0, 2, 0, 3],
+    "notes": ["G", "D", "E", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "Add9",
+    "name": "Gadd9 (alt 1)",
+    "frets": [0, 2, 5, 2],
+    "fingers": [0, 1, 4, 2],
+    "notes": ["G", "D", "A", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Sus2",
+    "name": "Dsus2 (alt 1)",
+    "frets": [2, 2, 0, 0],
+    "fingers": [1, 2, 0, 0],
+    "notes": ["A", "D", "E", "A"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Sus4",
+    "name": "Dsus4 (alt 1)",
+    "frets": [0, 2, 3, 0],
+    "fingers": [0, 1, 2, 0],
+    "notes": ["G", "D", "G", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Min7",
+    "name": "Am7 (alt 1)",
+    "frets": [0, 0, 3, 0],
+    "fingers": [0, 0, 3, 0],
+    "notes": ["G", "C", "G", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Maj7",
+    "name": "Fmaj7 (alt 1)",
+    "frets": [2, 4, 1, 0],
+    "fingers": [2, 4, 1, 0],
+    "notes": ["A", "E", "F", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "C",
+    "quality": "7",
+    "name": "C7 (alt 1)",
+    "frets": [0, 0, 0, 1],
+    "fingers": [0, 0, 0, 1],
+    "notes": ["G", "C", "E", "Bb"],
+    "barreeFret": null
+  },
+  {
+    "root": "Bb",
+    "quality": "Major",
+    "name": "Bb (alt 1)",
+    "frets": [3, 2, 1, 1],
+    "fingers": [4, 3, 2, 1],
+    "notes": ["Bb", "D", "F", "Bb"],
+    "barreeFret": 1
+  },
+  {
+    "root": "C",
+    "quality": "Dim",
+    "name": "Cdim (alt 1)",
+    "frets": [2, 3, 2, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "D#", "F#", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Dim",
+    "name": "Adim (alt 1)",
+    "frets": [2, 3, 2, 3],
+    "fingers": [1, 3, 2, 4],
+    "notes": ["A", "D#", "F#", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "G",
+    "quality": "7",
+    "name": "G7 (alt 2)",
+    "frets": [0, 2, 1, 2],
+    "fingers": [0, 2, 1, 3],
+    "notes": ["G", "D", "F", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "D",
+    "quality": "Minor",
+    "name": "Dm (alt 3)",
+    "frets": [7, 5, 5, 5],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["D", "F", "A", "D"],
+    "barreeFret": 5
+  },
+  {
+    "root": "C",
+    "quality": "Minor",
+    "name": "Cm (alt 2)",
+    "frets": [3, 3, 3, 6],
+    "fingers": [1, 1, 1, 4],
+    "notes": ["Bb", "D#", "G", "D#"],
+    "barreeFret": 3
+  },
+  {
+    "root": "A",
+    "quality": "Minor",
+    "name": "Am (barre 5)",
+    "frets": [5, 4, 5, 3],
+    "fingers": [3, 2, 4, 1],
+    "notes": ["C", "E", "A", "C"],
+    "barreeFret": null
+  },
+  {
+    "root": "E",
+    "quality": "Minor",
+    "name": "Em (barre 7)",
+    "frets": [9, 7, 7, 7],
+    "fingers": [4, 1, 2, 3],
+    "notes": ["E", "G", "B", "E"],
+    "barreeFret": 7
+  },
+  {
+    "root": "G",
+    "quality": "Major",
+    "name": "G (alt 3)",
+    "frets": [4, 2, 3, 5],
+    "fingers": [3, 1, 2, 4],
+    "notes": ["B", "D", "G", "D"],
+    "barreeFret": null
+  },
+  {
+    "root": "F",
+    "quality": "Major",
+    "name": "F (alt 2)",
+    "frets": [5, 5, 5, 3],
+    "fingers": [2, 3, 4, 1],
+    "notes": ["C", "F", "A", "C"],
+    "barreeFret": 5
+  },
+  {
+    "root": "C",
+    "quality": "Maj7",
+    "name": "Cmaj7 (alt 2)",
+    "frets": [0, 0, 0, 2],
+    "fingers": [0, 0, 0, 1],
+    "notes": ["G", "C", "E", "B"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Major",
+    "name": "A (alt 2)",
+    "frets": [6, 4, 5, 4],
+    "fingers": [4, 1, 2, 1],
+    "notes": ["C#", "E", "A", "C#"],
+    "barreeFret": 4
+  },
+  {
+    "root": "D",
+    "quality": "Major",
+    "name": "D (barre 7)",
+    "frets": [7, 9, 10, 9],
+    "fingers": [1, 2, 4, 3],
+    "notes": ["D", "A", "D", "F#"],
+    "barreeFret": 9
+  },
+  {
+    "root": "E",
+    "quality": "Major",
+    "name": "E (barre 4)",
+    "frets": [4, 4, 4, 2],
+    "fingers": [2, 3, 4, 1],
+    "notes": ["B", "E", "G#", "B"],
+    "barreeFret": 4
+  },
+  {
+    "root": "F",
+    "quality": "7",
+    "name": "F7 (alt 1)",
+    "frets": [2, 3, 1, 0],
+    "fingers": [2, 3, 1, 0],
+    "notes": ["A", "D#", "F", "A"],
+    "barreeFret": null
+  },
+  {
+    "root": "A",
+    "quality": "Sus2",
+    "name": "Asus2 (alt 1)",
+    "frets": [2, 4, 0, 2],
+    "fingers": [1, 3, 0, 2],
+    "notes": ["A", "E", "E", "B"],
+    "barreeFret": 2
+  },
+  {
+    "root": "E",
+    "quality": "Sus4",
+    "name": "Esus4 (alt 1)",
+    "frets": [4, 4, 5, 2],
+    "fingers": [2, 3, 4, 1],
+    "notes": ["B", "E", "A", "B"],
+    "barreeFret": 4
+  },
+  {
+    "root": "D",
+    "quality": "Add9",
+    "name": "Dadd9 (alt 1)",
+    "frets": [2, 4, 2, 0],
+    "fingers": [1, 3, 2, 0],
+    "notes": ["A", "E", "F#", "A"],
+    "barreeFret": 2
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "id": "happy-birthday",
+  "title": "Happy Birthday",
+  "artist": "Traditional",
+  "key": "C",
+  "bpm": 100,
+  "difficulty": 1,
+  "tags": ["traditional", "beginner-friendly", "celebration"],
+  "capo": 0,
+  "tuning": "standard",
+  "timeSignature": "3/4",
+  "sections": [
+    {
+      "name": "Song",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "C", "position": 0 }],
+          "lyrics": "Happy birthday to you"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }],
+          "lyrics": "Happy birthday to you"
+        },
+        {
+          "chords": [{ "chord": "C", "position": 0 }, { "chord": "F", "position": 15 }],
+          "lyrics": "Happy birthday dear friend"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }, { "chord": "C", "position": 17 }],
+          "lyrics": "Happy birthday to you"
+        }
+      ]
+    }
+  ]
+}

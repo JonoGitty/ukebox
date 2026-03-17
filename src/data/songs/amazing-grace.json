@@ -1,0 +1,80 @@
+{
+  "id": "amazing-grace",
+  "title": "Amazing Grace",
+  "artist": "Traditional",
+  "key": "G",
+  "bpm": 75,
+  "difficulty": 1,
+  "tags": ["hymn", "traditional", "beginner-friendly"],
+  "capo": 0,
+  "tuning": "standard",
+  "timeSignature": "3/4",
+  "sections": [
+    {
+      "name": "Verse 1",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "G", "position": 0 }],
+          "lyrics": "Amazing grace, how sweet the sound"
+        },
+        {
+          "chords": [{ "chord": "C", "position": 0 }, { "chord": "G", "position": 15 }],
+          "lyrics": "That saved a wretch like me"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }],
+          "lyrics": "I once was lost, but now am found"
+        },
+        {
+          "chords": [{ "chord": "D", "position": 0 }, { "chord": "G", "position": 15 }],
+          "lyrics": "Was blind but now I see"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "G", "position": 0 }],
+          "lyrics": "'Twas grace that taught my heart to fear"
+        },
+        {
+          "chords": [{ "chord": "C", "position": 0 }, { "chord": "G", "position": 15 }],
+          "lyrics": "And grace my fears relieved"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }],
+          "lyrics": "How precious did that grace appear"
+        },
+        {
+          "chords": [{ "chord": "D", "position": 0 }, { "chord": "G", "position": 15 }],
+          "lyrics": "The hour I first believed"
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "type": "verse",
+      "lines": [
+        {
+          "chords": [{ "chord": "G", "position": 0 }],
+          "lyrics": "Through many dangers, toils and snares"
+        },
+        {
+          "chords": [{ "chord": "C", "position": 0 }, { "chord": "G", "position": 15 }],
+          "lyrics": "I have already come"
+        },
+        {
+          "chords": [{ "chord": "G", "position": 0 }],
+          "lyrics": "'Tis grace hath brought me safe thus far"
+        },
+        {
+          "chords": [{ "chord": "D", "position": 0 }, { "chord": "G", "position": 15 }],
+          "lyrics": "And grace will lead me home"
+        }
+      ]
+    }
+  ]
+}
