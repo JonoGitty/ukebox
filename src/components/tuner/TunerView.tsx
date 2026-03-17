@@ -1,19 +1,15 @@
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useMemo, useCallback } from 'react';
 import { useAppStore } from '../../stores/useAppStore';
 import { useAudioStore } from '../../stores/useAudioStore';
 import { AudioEngine } from '../../audio/AudioEngine';
 import { getTuningById } from '../../music/tunings';
 import { TUNING_PRESETS, getStringLabel } from '../../music/tunings';
-import { ema } from '../../utils/helpers';
 import TunerGauge from './TunerGauge';
 import StringSelector from './StringSelector';
 
 export default function TunerView() {
   const { currentTuningId, setCurrentTuningId, micPermission, setMicPermission } = useAppStore();
-  const { isListening, setIsListening, currentPitch, setCurrentPitch, setAnalyserData } = useAudioStore();
-  const animRef = useRef<number>(0);
-  const prevFreq = useRef(0);
-  const [detectedString, setDetectedString] = useState<number | null>(null);
+  const { isListening, setIsListening, currentPitch } = useAudioStore();
 
   const tuning = getTuningById(currentTuningId);
 
@@ -28,48 +24,20 @@ export default function TunerView() {
     }
   }, [setMicPermission, setIsListening]);
 
-  useEffect(() => {
-    if (!isListening) return;
-
-    const engine = AudioEngine.getInstance();
-
-    const update = () => {
-      const pitch = engine.detectPitch();
-      const timeDomain = engine.getTimeDomainData();
-
-      if (timeDomain) setAnalyserData(timeDomain);
-
-      if (pitch) {
-        // Smooth frequency
-        const smoothedFreq = prevFreq.current > 0
-          ? ema(pitch.frequency, prevFreq.current, 0.4)
-          : pitch.frequency;
-        prevFreq.current = smoothedFreq;
-
-        setCurrentPitch({ ...pitch, frequency: smoothedFreq });
-
-        // Auto-detect closest string
-        let closestIdx = 0;
-        let closestDist = Infinity;
-        tuning.strings.forEach((s: { frequency: number }, i: number) => {
-          const dist = Math.abs(smoothedFreq - s.frequency);
-          if (dist < closestDist) {
-            closestDist = dist;
-            closestIdx = i;
-          }
-        });
-        setDetectedString(closestIdx);
-      } else {
-        setCurrentPitch(null);
-        setDetectedString(null);
+  // Auto-detect closest string from current pitch
+  const detectedString = useMemo(() => {
+    if (!currentPitch) return null;
+    let closestIdx = 0;
+    let closestDist = Infinity;
+    tuning.strings.forEach((s: { frequency: number }, i: number) => {
+      const dist = Math.abs(currentPitch.frequency - s.frequency);
+      if (dist < closestDist) {
+        closestDist = dist;
+        closestIdx = i;
       }
-
-      animRef.current = requestAnimationFrame(update);
-    };
-
-    animRef.current = requestAnimationFrame(update);
-    return () => cancelAnimationFrame(animRef.current);
-  }, [isListening, tuning, setCurrentPitch, setAnalyserData]);
+    });
+    return closestIdx;
+  }, [currentPitch, tuning]);
 
   // Calculate cents relative to detected string
   let centsFromTarget = 0;

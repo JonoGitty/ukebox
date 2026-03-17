@@ -1,9 +1,14 @@
 import { PitchDetector, type PitchResult } from './PitchDetector';
 import { ChordDetector, type ChordResult } from './ChordDetector';
 
-export class AudioEngine {
-  private static instance: AudioEngine | null = null;
+// Store singleton on window to survive HMR reloads
+declare global {
+  interface Window {
+    __ukebox_audio_engine?: AudioEngine;
+  }
+}
 
+export class AudioEngine {
   audioContext: AudioContext | null = null;
   analyserNode: AnalyserNode | null = null;
   private sourceNode: MediaStreamAudioSourceNode | null = null;
@@ -13,10 +18,10 @@ export class AudioEngine {
   private _isActive = false;
 
   static getInstance(): AudioEngine {
-    if (!AudioEngine.instance) {
-      AudioEngine.instance = new AudioEngine();
+    if (!window.__ukebox_audio_engine) {
+      window.__ukebox_audio_engine = new AudioEngine();
     }
-    return AudioEngine.instance;
+    return window.__ukebox_audio_engine;
   }
 
   async init(): Promise<void> {
@@ -28,7 +33,10 @@ export class AudioEngine {
 
   async requestMicAccess(): Promise<boolean> {
     try {
+      console.log('[AudioEngine] Initializing...');
       await this.init();
+
+      console.log('[AudioEngine] Requesting mic access...');
       this.stream = await navigator.mediaDevices.getUserMedia({
         audio: {
           echoCancellation: false,
@@ -36,11 +44,13 @@ export class AudioEngine {
           autoGainControl: false,
         },
       });
+      console.log('[AudioEngine] Mic access granted');
 
       if (!this.audioContext) return false;
 
       // Resume context if suspended (required by browsers)
       if (this.audioContext.state === 'suspended') {
+        console.log('[AudioEngine] Resuming AudioContext...');
         await this.audioContext.resume();
       }
 
@@ -51,8 +61,10 @@ export class AudioEngine {
 
       this.sourceNode.connect(this.analyserNode);
       this._isActive = true;
+      console.log('[AudioEngine] Active and listening');
       return true;
-    } catch {
+    } catch (err) {
+      console.error('[AudioEngine] Mic access failed:', err);
       this._isActive = false;
       return false;
     }
@@ -113,6 +125,6 @@ export class AudioEngine {
     this.sourceNode = null;
     this.stream = null;
     this._isActive = false;
-    AudioEngine.instance = null;
+    window.__ukebox_audio_engine = undefined;
   }
 }

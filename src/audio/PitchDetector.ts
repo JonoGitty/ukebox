@@ -6,8 +6,8 @@ export interface PitchResult {
   cents: number;
 }
 
-const CLARITY_THRESHOLD = 0.85;
-const RMS_THRESHOLD = 0.01;
+const CLARITY_THRESHOLD = 0.3;
+const RMS_THRESHOLD = 0.0001;
 
 export class PitchDetector {
   private sampleRate: number;
@@ -107,21 +107,19 @@ export class PitchDetector {
     // Convert to note
     if (frequency < 20 || frequency > 5000) return null;
 
-    const noteNum = 12 * Math.log2(frequency / 440);
-    const roundedNote = Math.round(noteNum);
-    const cents = Math.round((noteNum - roundedNote) * 100);
-    const noteIndex = ((roundedNote % 12) + 12) % 12;
-    const octave = Math.floor((roundedNote + 69) / 12) - 1;
-
+    // Convert frequency to MIDI note number
     const NOTE_NAMES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
-    // A4 = 440Hz is noteNum=0, which is index 9 (A)
-    const nameIndex = ((noteIndex + 9) % 12 + 12) % 12;
+    const midi = 12 * Math.log2(frequency / 440) + 69;
+    const roundedMidi = Math.round(midi);
+    const cents = Math.round((midi - roundedMidi) * 100);
+    const noteIndex = ((roundedMidi % 12) + 12) % 12;
+    const octave = Math.floor(roundedMidi / 12) - 1;
 
     return {
       frequency,
       confidence: bestPeak.value,
-      note: NOTE_NAMES[nameIndex],
-      octave: Math.floor((roundedNote + 69) / 12) - 1,
+      note: NOTE_NAMES[noteIndex],
+      octave,
       cents,
     };
   }

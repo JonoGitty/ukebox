@@ -1,0 +1,238 @@
+root,quality,name,fret_G,fret_C,fret_E,fret_A,finger_G,finger_C,finger_E,finger_A,note_G,note_C,note_E,note_A,barre_fret
+C,Major,C,0,0,0,3,0,0,0,3,G,C,E,C,
+C,Minor,Cm,0,3,3,3,0,1,2,3,G,D#,G,C,3
+C,7,C7,0,0,0,1,0,0,0,1,G,C,E,Bb,
+C,Maj7,Cmaj7,0,0,0,2,0,0,0,1,G,C,E,B,
+C,Min7,Cm7,3,3,3,3,1,1,1,1,Bb,D#,G,C,3
+C,Dim,Cdim,2,3,2,3,1,3,2,4,A,D#,F#,C,
+C,Aug,Caug,1,0,0,3,1,0,0,3,G#,C,E,C,
+C,Sus2,Csus2,0,2,3,3,0,1,2,3,G,D,G,C,3
+C,Sus4,Csus4,0,0,1,3,0,0,1,3,G,C,F,C,
+C,Add9,Cadd9,0,2,0,3,0,2,0,3,G,D,E,C,
+C,6,C6,0,0,0,0,0,0,0,0,G,C,E,A,
+C,Min6,Cm6,2,3,3,0,1,2,3,0,A,D#,G,A,3
+C,Dim7,Cdim7,2,3,2,0,1,3,2,0,A,D#,F#,A,
+C,9,C9,0,2,0,1,0,2,0,1,G,D,E,Bb,
+C#,Major,C#,1,1,1,4,1,1,1,4,G#,C#,F,C#,1
+C#,Minor,C#m,1,4,4,4,1,2,3,4,G#,E,G#,C#,4
+C#,7,C#7,1,1,1,2,1,1,1,2,G#,C#,F,B,1
+C#,Maj7,C#maj7,1,1,1,3,1,1,1,3,G#,C#,F,C,1
+C#,Min7,C#m7,4,4,4,4,1,1,1,1,B,E,G#,C#,4
+C#,Dim,C#dim,0,1,0,4,0,1,0,4,G,C#,E,C#,
+C#,Aug,C#aug,2,1,1,4,2,1,1,4,A,C#,F,C#,1
+C#,Sus2,C#sus2,1,3,4,4,1,2,3,4,G#,D#,G#,C#,4
+C#,Sus4,C#sus4,1,1,2,4,1,1,2,4,G#,C#,F#,C#,1
+C#,Add9,C#add9,1,3,1,4,1,3,1,4,G#,D#,F,C#,1
+C#,6,C#6,1,1,1,1,1,1,1,1,G#,C#,F,Bb,1
+C#,Min6,C#m6,1,1,0,1,1,2,0,3,G#,C#,E,Bb,1
+C#,Dim7,C#dim7,0,1,0,1,0,1,0,2,G,C#,E,Bb,1
+C#,9,C#9,1,3,1,2,1,3,1,2,G#,D#,F,B,1
+D,Major,D,2,2,2,0,1,1,1,0,A,D,F#,A,2
+D,Minor,Dm,2,2,1,0,2,3,1,0,A,D,F,A,2
+D,7,D7,2,2,2,3,1,1,1,2,A,D,F#,C,2
+D,Maj7,Dmaj7,2,2,2,4,1,1,1,3,A,D,F#,C#,2
+D,Min7,Dm7,2,2,1,3,2,3,1,4,A,D,F,C,
+D,Dim,Ddim,1,2,1,5,1,2,1,4,G#,D,F,D,1
+D,Aug,Daug,3,2,2,1,4,2,3,1,Bb,D,F#,Bb,2
+D,Sus2,Dsus2,2,2,0,0,1,2,0,0,A,D,E,A,2
+D,Sus4,Dsus4,0,2,3,0,0,1,2,0,G,D,G,A,
+D,Add9,Dadd9,2,4,2,0,1,3,2,0,A,E,F#,A,2
+D,6,D6,2,2,2,2,1,1,1,1,A,D,F#,B,2
+D,Min6,Dm6,2,2,1,2,2,3,1,4,A,D,F,B,2
+D,Dim7,Ddim7,1,2,1,2,1,3,2,4,G#,D,F,B,
+D,9,D9,2,4,2,3,1,3,1,2,A,E,F#,C,2
+D#,Major,D#,3,3,3,1,2,3,4,1,Bb,D#,G,Bb,3
+D#,Minor,D#m,3,3,2,1,3,4,2,1,Bb,D#,F#,Bb,3
+D#,7,D#7,3,3,3,4,1,1,1,2,Bb,D#,G,C#,3
+D#,Maj7,D#maj7,3,3,3,5,1,1,1,3,Bb,D#,G,D,3
+D#,Min7,D#m7,3,3,2,4,2,3,1,4,Bb,D#,F#,C#,3
+D#,Dim,D#dim,2,3,2,3,1,3,2,4,A,D#,F#,C,
+D#,Aug,D#aug,0,3,3,2,0,2,3,1,G,D#,G,B,3
+D#,Sus2,D#sus2,3,3,1,1,3,4,1,2,Bb,D#,F,Bb,
+D#,Sus4,D#sus4,1,3,4,1,1,3,4,1,G#,D#,G#,Bb,1
+D#,Add9,D#add9,0,3,1,1,0,3,1,2,G,D#,F,Bb,1
+D#,6,D#6,3,3,3,3,1,1,1,1,Bb,D#,G,C,3
+D#,Min6,D#m6,3,3,2,3,2,3,1,4,Bb,D#,F#,C,3
+D#,Dim7,D#dim7,2,3,2,0,1,3,2,0,A,D#,F#,A,2
+D#,9,D#9,0,3,1,4,0,3,1,4,G,D#,F,C#,
+E,Major,E,4,4,4,2,2,3,4,1,B,E,G#,B,4
+E,Minor,Em,0,4,3,2,0,3,2,1,G,E,G,B,
+E,7,E7,1,2,0,2,1,2,0,3,G#,D,E,B,2
+E,Maj7,Emaj7,1,3,0,2,1,3,0,2,G#,D#,E,B,
+E,Min7,Em7,0,2,0,2,0,1,0,2,G,D,E,B,2
+E,Dim,Edim,3,4,3,1,2,3,4,1,Bb,E,G,Bb,3
+E,Aug,Eaug,1,0,0,3,1,0,0,3,G#,C,E,C,
+E,Sus2,Esus2,4,4,2,2,3,4,1,2,B,E,F#,B,
+E,Sus4,Esus4,2,4,0,2,1,3,0,2,A,E,E,B,2
+E,Add9,Eadd9,1,6,0,2,1,4,0,2,G#,F#,E,B,
+E,6,E6,4,4,4,4,1,1,1,1,B,E,G#,C#,4
+E,Min6,Em6,0,4,3,4,0,2,1,3,G,E,G,C#,4
+E,Dim7,Edim7,0,1,0,1,0,1,0,2,G,C#,E,Bb,1
+E,9,E9,1,2,2,2,1,2,3,4,G#,D,F#,B,2
+F,Major,F,2,0,1,0,2,0,1,0,A,C,F,A,
+F,Minor,Fm,1,0,1,3,1,0,2,4,G#,C,F,C,1
+F,7,F7,2,3,1,3,2,3,1,4,A,D#,F,C,3
+F,Maj7,Fmaj7,2,4,1,0,2,4,1,0,A,E,F,A,
+F,Min7,Fm7,1,3,1,3,1,3,2,4,G#,D#,F,C,
+F,Dim,Fdim,1,5,4,2,1,4,3,2,G#,F,G#,B,
+F,Aug,Faug,2,1,1,0,3,1,2,0,A,C#,F,A,1
+F,Sus2,Fsus2,0,0,1,3,0,0,1,3,G,C,F,C,
+F,Sus4,Fsus4,3,0,1,1,3,0,1,2,Bb,C,F,Bb,1
+F,Add9,Fadd9,0,0,1,0,0,0,1,0,G,C,F,A,
+F,6,F6,2,2,1,0,2,3,1,0,A,D,F,A,2
+F,Min6,Fm6,1,2,1,3,1,2,1,4,G#,D,F,C,1
+F,Dim7,Fdim7,1,2,1,2,1,3,2,4,G#,D,F,B,
+F,9,F9,0,3,1,0,0,3,1,0,G,D#,F,A,
+F#,Major,F#,3,1,2,1,4,1,3,2,Bb,C#,F#,Bb,1
+F#,Minor,F#m,2,1,2,0,2,1,3,0,A,C#,F#,A,2
+F#,7,F#7,3,4,2,4,2,3,1,4,Bb,E,F#,C#,4
+F#,Maj7,F#maj7,3,5,2,1,3,4,2,1,Bb,F,F#,Bb,
+F#,Min7,F#m7,2,4,2,4,1,3,2,4,A,E,F#,C#,
+F#,Dim,F#dim,2,3,2,3,1,3,2,4,A,D#,F#,C,
+F#,Aug,F#aug,3,2,2,1,4,2,3,1,Bb,D,F#,Bb,2
+F#,Sus2,F#sus2,1,1,2,4,1,1,2,4,G#,C#,F#,C#,1
+F#,Sus4,F#sus4,4,1,2,2,4,1,2,3,B,C#,F#,B,2
+F#,Add9,F#add9,1,1,2,1,1,1,2,1,G#,C#,F#,Bb,1
+F#,6,F#6,3,3,2,1,3,4,2,1,Bb,D#,F#,Bb,
+F#,Min6,F#m6,2,3,2,4,1,2,1,4,A,D#,F#,C#,2
+F#,Dim7,F#dim7,2,3,2,0,1,3,2,0,A,D#,F#,A,2
+F#,9,F#9,1,4,2,1,1,4,2,1,G#,E,F#,Bb,1
+G,Major,G,0,2,3,2,0,1,3,2,G,D,G,B,2
+G,Minor,Gm,0,2,3,1,0,2,3,1,G,D,G,Bb,
+G,7,G7,0,2,1,2,0,2,1,3,G,D,F,B,2
+G,Maj7,Gmaj7,0,2,2,2,0,1,2,3,G,D,F#,B,2
+G,Min7,Gm7,0,2,1,1,0,3,1,2,G,D,F,Bb,1
+G,Dim,Gdim,0,1,3,1,0,1,3,2,G,C#,G,Bb,1
+G,Aug,Gaug,0,3,3,2,0,2,3,1,G,D#,G,B,3
+G,Sus2,Gsus2,0,2,3,0,0,1,2,0,G,D,G,A,
+G,Sus4,Gsus4,0,2,3,3,0,1,2,3,G,D,G,C,3
+G,Add9,Gadd9,2,2,3,2,1,1,2,1,A,D,G,B,2
+G,6,G6,0,2,0,2,0,1,0,2,G,D,E,B,2
+G,Min6,Gm6,0,2,0,1,0,2,0,1,G,D,E,Bb,
+G,Dim7,Gdim7,0,1,0,1,0,1,0,2,G,C#,E,Bb,1
+G,9,G9,2,2,1,2,2,3,1,4,A,D,F,B,2
+G#,Major,G#,5,3,4,3,4,1,2,1,C,D#,G#,C,3
+G#,Minor,G#m,4,3,4,2,3,2,4,1,B,D#,G#,B,
+G#,7,G#7,1,3,2,3,1,3,2,4,G#,D#,F#,C,3
+G#,Maj7,G#maj7,1,3,3,3,1,2,3,4,G#,D#,G,C,3
+G#,Min7,G#m7,1,3,2,2,1,4,2,3,G#,D#,F#,B,2
+G#,Dim,G#dim,1,2,4,2,1,2,4,3,G#,D,G#,B,2
+G#,Aug,G#aug,1,0,0,3,1,0,0,4,G#,C,E,C,
+G#,Sus2,G#sus2,1,3,4,1,1,3,4,1,G#,D#,G#,Bb,1
+G#,Sus4,G#sus4,1,3,4,4,1,2,3,4,G#,D#,G#,C#,4
+G#,Add9,G#add9,5,3,4,1,4,2,3,1,C,D#,G#,Bb,
+G#,6,G#6,1,3,1,3,1,3,2,4,G#,D#,F,C,
+G#,Min6,G#m6,1,3,1,2,1,4,2,3,G#,D#,F,B,
+G#,Dim7,G#dim7,1,2,1,2,1,3,2,4,G#,D,F,B,
+G#,9,G#9,3,3,2,3,2,3,1,4,Bb,D#,F#,C,3
+A,Major,A,2,1,0,0,2,1,0,0,A,C#,E,A,
+A,Minor,Am,2,0,0,0,1,0,0,0,A,C,E,A,
+A,7,A7,0,1,0,0,0,1,0,0,G,C#,E,A,
+A,Maj7,Amaj7,1,1,0,0,1,2,0,0,G#,C#,E,A,1
+A,Min7,Am7,0,0,0,0,0,0,0,0,G,C,E,A,
+A,Dim,Adim,2,3,2,3,1,3,2,4,A,D#,F#,C,
+A,Aug,Aaug,2,1,1,0,3,1,2,0,A,C#,F,A,1
+A,Sus2,Asus2,2,4,0,2,1,3,0,2,A,E,E,B,2
+A,Sus4,Asus4,2,2,0,0,1,2,0,0,A,D,E,A,2
+A,Add9,Aadd9,2,1,0,2,2,1,0,3,A,C#,E,B,
+A,6,A6,2,4,2,4,1,3,2,4,A,E,F#,C#,
+A,Min6,Am6,5,4,2,0,4,3,2,0,C,E,F#,A,
+A,Dim7,Adim7,2,3,2,0,1,3,2,0,A,D#,F#,A,2
+A,9,A9,0,1,0,2,0,1,0,2,G,C#,E,B,
+Bb,Major,Bb,3,2,1,1,4,3,2,1,Bb,D,F,Bb,1
+Bb,Minor,Bbm,3,1,1,1,4,1,2,3,Bb,C#,F,Bb,1
+Bb,7,Bb7,1,2,1,1,1,2,1,1,G#,D,F,Bb,1
+Bb,Maj7,Bbmaj7,3,2,1,0,3,2,1,0,Bb,D,F,A,
+Bb,Min7,Bbm7,1,1,1,1,1,1,1,1,G#,C#,F,Bb,1
+Bb,Dim,Bbdim,3,1,0,1,3,1,0,2,Bb,C#,E,Bb,1
+Bb,Aug,Bbaug,3,2,2,1,4,2,3,1,Bb,D,F#,Bb,2
+Bb,Sus2,Bbsus2,3,0,1,1,3,0,1,2,Bb,C,F,Bb,1
+Bb,Sus4,Bbsus4,3,3,1,1,3,4,1,2,Bb,D#,F,Bb,1
+Bb,Add9,Bbadd9,3,2,1,3,3,2,1,4,Bb,D,F,C,
+Bb,6,Bb6,0,2,1,1,0,3,1,2,G,D,F,Bb,1
+Bb,Min6,Bbm6,0,1,1,1,0,1,2,3,G,C#,F,Bb,1
+Bb,Dim7,Bbdim7,0,1,0,1,0,1,0,2,G,C#,E,Bb,1
+Bb,9,Bb9,1,2,1,3,1,2,1,4,G#,D,F,C,1
+B,Major,B,4,3,2,2,4,3,2,1,B,D#,F#,B,2
+B,Minor,Bm,4,2,2,2,4,1,2,3,B,D,F#,B,2
+B,7,B7,2,3,2,2,1,2,1,1,A,D#,F#,B,2
+B,Maj7,Bmaj7,4,3,2,1,4,3,2,1,B,D#,F#,Bb,
+B,Min7,Bm7,2,2,2,2,1,1,1,1,A,D,F#,B,2
+B,Dim,Bdim,4,2,1,2,4,2,1,3,B,D,F,B,2
+B,Aug,Baug,0,3,3,2,0,2,3,1,G,D#,G,B,3
+B,Sus2,Bsus2,4,1,2,2,4,1,2,3,B,C#,F#,B,2
+B,Sus4,Bsus4,4,4,2,2,3,4,1,2,B,E,F#,B,2
+B,Add9,Badd9,4,3,2,4,3,2,1,4,B,D#,F#,C#,
+B,6,B6,1,3,2,2,1,4,2,3,G#,D#,F#,B,2
+B,Min6,Bm6,1,2,2,2,1,2,3,4,G#,D,F#,B,2
+B,Dim7,Bdim7,1,2,1,2,1,3,2,4,G#,D,F,B,
+B,9,B9,2,3,2,4,1,2,1,4,A,D#,F#,C#,2
+C,Major,C (alt 1),5,4,3,3,3,2,1,1,C,E,G,C,3
+C,Major,C (alt 2),0,0,3,3,0,0,1,2,G,C,G,C,3
+C,Major,C (high),9,7,8,7,4,1,2,1,E,G,C,E,7
+C,Major,C (barre 7),7,7,8,7,1,1,2,1,D,G,C,E,7
+G,Major,G (alt 1),0,2,3,5,0,1,2,4,G,D,G,D,
+G,Major,G (alt 2),4,2,3,2,3,1,2,1,B,D,G,B,2
+G,Major,G (barre 7),7,7,7,10,1,1,1,4,D,G,B,G,7
+A,Minor,Am (alt 1),2,0,0,3,1,0,0,3,A,C,E,C,
+A,Minor,Am (high),2,4,5,3,1,3,4,2,A,E,A,C,
+F,Major,F (alt 1),2,0,1,3,2,0,1,4,A,C,F,C,
+F,Major,F (barre 5),5,5,5,8,1,1,1,4,C,F,A,F,5
+D,Major,D (alt 1),2,2,2,5,1,1,1,4,A,D,F#,D,2
+E,Minor,Em (alt 1),4,4,3,2,3,4,2,1,B,E,G,B,4
+E,Minor,Em (alt 2),4,4,3,7,2,3,1,4,B,E,G,E,4
+A,Major,A (alt 1),2,1,0,4,2,1,0,4,A,C#,E,C#,
+A,Major,A (barre 4),6,4,5,4,4,1,2,1,C#,E,A,C#,4
+E,Major,E (alt 1),4,4,4,7,1,1,1,4,B,E,G#,E,4
+E,Major,E (alt 2),1,4,0,2,1,4,0,2,G#,E,E,B,
+D,Minor,Dm (alt 1),2,2,1,3,2,3,1,4,A,D,F,C,
+D,Minor,Dm (alt 2),2,2,1,5,2,3,1,4,A,D,F,D,
+C,Minor,Cm (alt 1),5,3,3,3,4,1,2,3,C,D#,G,C,3
+G,Minor,Gm (alt 1),0,2,3,1,0,2,3,1,G,D,G,Bb,
+G,7,G7 (alt 1),4,2,1,2,4,2,1,3,B,D,F,B,2
+D,7,D7 (alt 1),2,2,2,3,1,1,1,2,A,D,F#,C,2
+C,Maj7,Cmaj7 (alt 1),4,4,3,3,3,4,1,2,B,E,G,C,
+G,Maj7,Gmaj7 (alt 1),0,2,2,2,0,1,2,3,G,D,F#,B,2
+E,7,E7 (alt 1),1,2,0,2,1,2,0,3,G#,D,E,B,2
+A,7,A7 (alt 1),0,1,0,0,0,1,0,0,G,C#,E,A,
+C,6,C6 (alt 1),0,0,0,0,0,0,0,0,G,C,E,A,
+C,Sus4,Csus4 (alt 1),0,0,1,3,0,0,1,3,G,C,F,C,
+C,Sus2,Csus2 (alt 1),0,2,3,3,0,1,2,3,G,D,G,C,3
+G,Sus4,Gsus4 (alt 1),0,2,3,3,0,1,2,3,G,D,G,C,3
+A,Sus4,Asus4 (alt 1),2,2,0,0,1,2,0,0,A,D,E,A,2
+B,Minor,Bm (alt 1),4,2,2,2,4,1,2,3,B,D,F#,B,2
+F#,Minor,F#m (alt 1),2,1,2,0,2,1,3,0,A,C#,F#,A,
+B,7,B7 (alt 1),2,3,2,2,1,2,1,1,A,D#,F#,B,2
+C#,Minor,C#m (alt 1),6,4,4,4,4,1,2,3,C#,E,G#,C#,4
+F#,Major,F# (alt 1),3,1,2,1,4,1,3,2,Bb,C#,F#,Bb,1
+Bb,Minor,Bbm (alt 1),3,1,1,1,4,1,2,3,Bb,C#,F,Bb,1
+E,Min7,Em7 (alt 1),0,2,0,2,0,1,0,2,G,D,E,B,2
+D,Min7,Dm7 (alt 1),2,2,1,3,2,3,1,4,A,D,F,C,
+C,9,C9 (alt 1),0,2,0,1,0,2,0,1,G,D,E,Bb,
+G,6,G6 (alt 1),4,2,0,2,3,1,0,2,B,D,E,B,2
+F,Minor,Fm (alt 1),1,0,1,3,1,0,2,4,G#,C,F,C,
+C,Add9,Cadd9 (alt 1),0,2,0,3,0,2,0,3,G,D,E,C,
+G,Add9,Gadd9 (alt 1),0,2,5,2,0,1,4,2,G,D,A,B,2
+D,Sus2,Dsus2 (alt 1),2,2,0,0,1,2,0,0,A,D,E,A,2
+D,Sus4,Dsus4 (alt 1),0,2,3,0,0,1,2,0,G,D,G,A,
+A,Min7,Am7 (alt 1),0,0,3,0,0,0,3,0,G,C,G,A,
+F,Maj7,Fmaj7 (alt 1),2,4,1,0,2,4,1,0,A,E,F,A,
+C,7,C7 (alt 1),0,0,0,1,0,0,0,1,G,C,E,Bb,
+Bb,Major,Bb (alt 1),3,2,1,1,4,3,2,1,Bb,D,F,Bb,1
+C,Dim,Cdim (alt 1),2,3,2,3,1,3,2,4,A,D#,F#,C,
+A,Dim,Adim (alt 1),2,3,2,3,1,3,2,4,A,D#,F#,C,
+G,7,G7 (alt 2),0,2,1,2,0,2,1,3,G,D,F,B,2
+D,Minor,Dm (alt 3),7,5,5,5,4,1,2,3,D,F,A,D,5
+C,Minor,Cm (alt 2),3,3,3,6,1,1,1,4,Bb,D#,G,D#,3
+A,Minor,Am (barre 5),5,4,5,3,3,2,4,1,C,E,A,C,
+E,Minor,Em (barre 7),9,7,7,7,4,1,2,3,E,G,B,E,7
+G,Major,G (alt 3),4,2,3,5,3,1,2,4,B,D,G,D,
+F,Major,F (alt 2),5,5,5,3,2,3,4,1,C,F,A,C,5
+C,Maj7,Cmaj7 (alt 2),0,0,0,2,0,0,0,1,G,C,E,B,
+A,Major,A (alt 2),6,4,5,4,4,1,2,1,C#,E,A,C#,4
+D,Major,D (barre 7),7,9,10,9,1,2,4,3,D,A,D,F#,9
+E,Major,E (barre 4),4,4,4,2,2,3,4,1,B,E,G#,B,4
+F,7,F7 (alt 1),2,3,1,0,2,3,1,0,A,D#,F,A,
+A,Sus2,Asus2 (alt 1),2,4,0,2,1,3,0,2,A,E,E,B,2
+E,Sus4,Esus4 (alt 1),4,4,5,2,2,3,4,1,B,E,A,B,4
+D,Add9,Dadd9 (alt 1),2,4,2,0,1,3,2,0,A,E,F#,A,2

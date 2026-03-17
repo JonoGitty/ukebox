@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useAppStore } from '../../stores/useAppStore';
 import { useAudioStore } from '../../stores/useAudioStore';
 import { AudioEngine } from '../../audio/AudioEngine';
@@ -6,13 +7,35 @@ export default function MicPermission() {
   const { setMicPermission, setShowOnboarding } = useAppStore();
   const { setIsListening } = useAudioStore();
 
+  // Auto-skip onboarding if mic was already granted in a previous session
+  useEffect(() => {
+    navigator.permissions?.query({ name: 'microphone' as PermissionName }).then(async (result) => {
+      if (result.state === 'granted') {
+        const engine = AudioEngine.getInstance();
+        const ok = await engine.requestMicAccess();
+        if (ok) {
+          setMicPermission('granted');
+          setIsListening(true);
+        }
+        setShowOnboarding(false);
+      }
+    }).catch(() => { /* permissions API not supported, show onboarding */ });
+  }, [setMicPermission, setIsListening, setShowOnboarding]);
+
   const requestAccess = async () => {
-    const engine = AudioEngine.getInstance();
-    const granted = await engine.requestMicAccess();
-    if (granted) {
-      setMicPermission('granted');
-      setIsListening(true);
-    } else {
+    console.log('[MicPermission] Requesting access...');
+    try {
+      const engine = AudioEngine.getInstance();
+      const granted = await engine.requestMicAccess();
+      console.log('[MicPermission] Result:', granted);
+      if (granted) {
+        setMicPermission('granted');
+        setIsListening(true);
+      } else {
+        setMicPermission('denied');
+      }
+    } catch (err) {
+      console.error('[MicPermission] Error:', err);
       setMicPermission('denied');
     }
     setShowOnboarding(false);
